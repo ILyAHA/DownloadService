@@ -8,7 +8,6 @@
 
 import Foundation
 import Alamofire
-import ImageSlideshow
 
 typealias DownloadCompletion = ((_ filePath : String, _ error: Error?) -> Void)?
 typealias ProgressHandler = ((Progress) -> Void)?
